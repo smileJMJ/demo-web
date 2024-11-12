@@ -22,7 +22,7 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",
-    "react-fold-calendar": "^1.1.1-SNAPSHOT",
+    "react-fold-calendar": "^1.1.1-SNAPSHOT-1731337212067",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
