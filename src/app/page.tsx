@@ -1,6 +1,15 @@
-import ReactFoldCalendar from "@components/ReactFoldCalendar";
+"use client";
+
+import dynamic from "next/dynamic";
 import DemoItem from "@components/DemoItem";
 import Code from "@components/Code";
+
+const ReactFoldCalendar = dynamic(
+  () => import("@components/ReactFoldCalendar"),
+  {
+    ssr: false,
+  }
+);
 
 export default function Home() {
   return (
