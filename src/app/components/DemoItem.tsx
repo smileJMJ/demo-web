@@ -8,7 +8,7 @@ const DemoItem = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col mb-[30px] gap-2">
       <h3 className="text-lg font-bold">{title}</h3>
       <p className="text-sm text-gray-500">{description}</p>
       {children}
